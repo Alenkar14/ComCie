@@ -1,11 +1,11 @@
-# 🎮 Análisis Actuarial y Modelado Predictivo: Mercado de Videojuegos
+# Análisis Actuarial y Modelado Predictivo: Mercado de Videojuegos
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto aplica metodologías actuariales, financieras y de Machine Learning para evaluar el riesgo y la rentabilidad en la industria del desarrollo de videojuegos. Utilizando el dataset `vgsales.csv`, el análisis trasciende la simple estadística descriptiva para ofrecer herramientas de toma de decisiones estratégicas basadas en flujos de caja esperados, probabilidades de supervivencia comercial y simulaciones de riesgo.
 
 El objetivo central es proporcionar a desarrolladores y *publishers* un marco cuantitativo riguroso para la asignación de presupuestos, diversificación de portafolios y evaluación de viabilidad antes de comprometer capital.
 
-📄 **Nota:** Puedes consultar la metodología matemática a detalle y el código formateado en el Reporte Técnico PDF adjunto en este repositorio.
+**Nota:** Puedes consultar la metodología matemática a detalle y el código formateado en el Reporte Técnico PDF adjunto en este repositorio.
 
 ## Stack Tecnológico
 * **Lenguaje:** Python 3.9+
@@ -42,3 +42,26 @@ Sigue estos pasos para reproducir el entorno y ejecutar los modelos actuariales 
 ```bash
 git clone [https://github.com/TU-USUARIO/TU-REPOSITORIO.git](https://github.com/TU-USUARIO/TU-REPOSITORIO.git)
 cd TU-REPOSITORIO
+```
+
+### 2. Configurar el entorno virtual (Recomendado)
+Para evitar conflictos de versiones con otras librerías, crea un entorno aislado:
+```bash
+python -m venv venv
+# En Windows:
+venv\Scripts\activate
+# En Mac/Linux:
+source venv/bin/activate
+```
+
+### 3. Instalar dependencias
+Instala el stack actuarial y de ML ejecutando:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Ejecución del Pipeline
+Todo el análisis y las simulaciones se encuentran en el notebook interactivo principal. Para iniciar, ejecuta:
+```bash
+jupyter notebook notebooks/Proyecto_GARH_A2_Final.ipynb
+```
